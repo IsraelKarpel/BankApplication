@@ -1,0 +1,14 @@
+.form-group {
+  margin-bottom: 10px;
+}
+
+.form-label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.form-error {
+  color: red;
+  font-size: 0.85rem;
+  margin-top: 5px;
+}
