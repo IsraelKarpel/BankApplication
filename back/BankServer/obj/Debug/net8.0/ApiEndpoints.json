@@ -1,0 +1,28 @@
+[
+  {
+    "ContainingType": "BankServer.Controllers.TransactionController",
+    "Method": "ProcessAddTransaction",
+    "RelativePath": "api/Transaction/process",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "BankServer.Domain.Models.MainRequstDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "BankServer.Domain.DTOS.MainResponseDTO",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  }
+]
